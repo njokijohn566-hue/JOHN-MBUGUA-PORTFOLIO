@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import logo from '../assets/logo1.png';
 export default function Navigation() {
   const [activeSection, setActiveSection] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -51,10 +51,13 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold">
-            <span className="text-white">Port</span>
-            <span className="text-[#00f0e1]">folio</span>
-          </div>
+          <div className="flex items-center">
+        <img 
+            src={logo} 
+            alt="John Njoki Logo" 
+            className="h-10 w-auto object-contain" 
+          />
+        </div>
 
           <div className="hidden md:flex items-center space-x-1">
             {navItems.map((item) => (
