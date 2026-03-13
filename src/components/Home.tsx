@@ -1,4 +1,5 @@
 import { Download, Sparkles, Code, Cpu, Rocket } from 'lucide-react';
+import Logo1 from '../assets/logo1.jpg';
 import JOE from '../assets/JOE.jpg'; // adjust the path to your image
 export default function Home() {
   const stats = [
@@ -24,7 +25,8 @@ export default function Home() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#00f0e1] to-[#00a8cc] p-1 shadow-[0_0_40px_rgba(0,240,225,0.6)] animate-spin-slow">
                 <div className="w-full h-full rounded-full bg-black p-2">
                   <img
-                    src={JOE}
+                    src={logo1}
+                    {JOE}
                     alt="JOHN NJOKIi"
                     className="w-full h-full rounded-full object-cover"
                   />
