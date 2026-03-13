@@ -17,8 +17,8 @@ Each project highlights a combination of design, functionality, and problem-solv
 
 ## Contact
 Feel free to reach out for collaboration, freelance work, or networking:
-- Email: your-email@example.com
-- LinkedIn: https://www.linkedin.com/in/your-linkedin
+- Email: njokijohn566.com
+- LinkedIn:https://www.linkedin.com/in/john-njoki-a8b886398/
 - GitHub: https://github.com/njokijohn566-hue
 
 ---
