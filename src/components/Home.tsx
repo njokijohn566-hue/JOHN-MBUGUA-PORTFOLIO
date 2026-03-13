@@ -35,9 +35,9 @@ export default function Home() {
 
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-5xl lg:text-7xl font-bold mb-4">
-              <span className="text-white">Your</span>{' '}
+              <span className="text-white">JOHN</span>{' '}
               <span className="text-[#00f0e1] drop-shadow-[0_0_30px_rgba(0,240,225,0.8)]">
-                Name
+                MBUGUA
               </span>
             </h1>
             <p className="text-xl lg:text-2xl text-gray-300 mb-6 leading-relaxed">
