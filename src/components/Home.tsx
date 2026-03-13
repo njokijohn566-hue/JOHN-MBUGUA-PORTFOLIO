@@ -1,5 +1,5 @@
 import { Download, Sparkles, Code, Cpu, Rocket } from 'lucide-react';
-
+import JOE from './assets/JOE.jpg'; // adjust the path to your image
 export default function Home() {
   const stats = [
     { label: 'Projects Built', value: '25+' },
@@ -24,8 +24,8 @@ export default function Home() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#00f0e1] to-[#00a8cc] p-1 shadow-[0_0_40px_rgba(0,240,225,0.6)] animate-spin-slow">
                 <div className="w-full h-full rounded-full bg-black p-2">
                   <img
-                    src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=800"
-                    alt="Profile"
+                    src={JOE}
+                    alt="JOHN NJOKI"
                     className="w-full h-full rounded-full object-cover"
                   />
                 </div>
