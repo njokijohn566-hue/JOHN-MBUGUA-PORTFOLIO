@@ -56,7 +56,7 @@ export default function Navigation() {
             src={logo} 
             alt="John Njoki Logo" 
             /* Changed h-10 to h-16 (64px) or h-20 (80px) for more impact */
-            className="h-16 w-auto object-contain transition-transform hover:scale-105" 
+            className="h-20 w-auto object-contain transition-transform hover:scale-105" 
             style={{ filter: 'drop-shadow(0 0 8px rgba(0, 240, 225, 0.3))' }}
           />
         </div>
