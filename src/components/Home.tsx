@@ -1,5 +1,5 @@
 import { Download, Sparkles, Code, Cpu, Rocket } from 'lucide-react';
-import JOE from './assets/JOE.jpg'; // adjust the path to your image
+import JOE from '../assets/JOE.jpg'; // adjust the path to your image
 export default function Home() {
   const stats = [
     { label: 'Projects Built', value: '25+' },
@@ -25,7 +25,7 @@ export default function Home() {
                 <div className="w-full h-full rounded-full bg-black p-2">
                   <img
                     src={JOE}
-                    alt="JOHN NJOKI"
+                    alt="JOHN NJOKIi"
                     className="w-full h-full rounded-full object-cover"
                   />
                 </div>
